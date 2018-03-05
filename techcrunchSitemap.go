@@ -7,12 +7,6 @@ import (
   "net/http"
 )
 
-// Example array of 6 ints:
-// var ArrExample [6]int
-
-// Example slice
-// SliceExample []float32
-
 type Sitemapindex struct {
   Locations []string `xml:"url>loc"` // Locations is a slice, of a Location type
 }
